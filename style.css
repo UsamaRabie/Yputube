@@ -1,0 +1,197 @@
+* {
+  margin: 0px;
+  border: 0px;
+}
+body {
+  background-color: rgb(46, 45, 45);
+}
+
+nav {
+  display: flex;
+}
+nav input {
+  width: 100%;
+  height: 50px;
+  margin-left: 20%;
+  margin-bottom: 30px;
+  background-color: black;
+  color: white;
+}
+.fa-solid {
+  color: white;
+  margin-right: 25px;
+  font-size: 20px;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+button {
+  background-color: gray;
+  height: 50px;
+
+  color: white !important;
+}
+button:hover {
+  background-color: rgb(83, 82, 82);
+  cursor: pointer;
+}
+
+.microphone {
+  width: 60px;
+  height: 50px;
+  background-color: gray;
+  margin-left: 15px;
+  text-align: center;
+  font-size: 20px;
+}
+.microphone:hover {
+  background-color: rgb(83, 82, 82);
+  cursor: pointer;
+}
+.fa-microphone,
+.fa-magnifying-glass {
+  width: 25px;
+  height: 25px;
+  color: white;
+  border-radius: 50%;
+  margin-top: 5px;
+  margin-left: 7px;
+  font-size: 25px;
+}
+
+.fa-video {
+  margin-left: 20%;
+}
+
+.picture,
+.logo {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-left: 15px;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-left: -35px;
+}
+
+div {
+  display: flex;
+}
+
+div main {
+  width: 75%;
+}
+
+.fa-house,
+.fa-compass,
+.fa-hurricane,
+.fa-book-bookmark,
+.fa-photo-film,
+.fa-clock-rotate-left,
+.fa-play,
+.fa-clock,
+.fa-scissors,
+.fa-thumbs-up,
+.fa-sort-down {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.side {
+  width: 100% !important;
+  height: 40px;
+  text-align: left !important;
+  margin-bottom: 10px;
+}
+
+.txt {
+  margin-top: 25px;
+  margin-bottom: 10px;
+  margin-left: 15px;
+  color: rgb(211, 194, 194);
+}
+
+.channel {
+  display: inline-block;
+
+  width: 70% !important;
+  position: relative;
+  bottom: 40px;
+  margin-left: 75px;
+}
+aside {
+  margin-right: 350px;
+}
+.channels {
+  background-color: gray;
+  display: inline-block;
+  width: 100%;
+}
+
+.picture {
+  display: block;
+}
+
+img:hover {
+  cursor: pointer;
+}
+main {
+  display: flex;
+  justify-content: space-between;
+}
+.video {
+  width: 450px;
+  height: 250px;
+  margin-bottom: 100px;
+  margin-right: -370px;
+}
+.fa-face-dizzy,
+.fa-face-grin-hearts,
+.fa-sun {
+  position: relative;
+  top: 250px;
+  right: 120px;
+  width: 350px;
+}
+
+.vv {
+  display: flex;
+  flex-direction: column;
+}
+
+.pic {
+  position: relative;
+  top: 260px;
+  left: 310px;
+}
+
+.video:hover {
+  cursor: pointer;
+}
+
+span {
+  color: gray;
+  font-size: 16px;
+}
+
+.fa-solid:hover {
+  cursor: pointer;
+}
+
+.time {
+  width: 40px;
+  height: 20px;
+  background-color: #433d3d;
+  color: white;
+  position: relative;
+  top: 220px;
+  right: 130px;
+}
+
+.time:hover {
+  cursor: pointer;
+
+}
